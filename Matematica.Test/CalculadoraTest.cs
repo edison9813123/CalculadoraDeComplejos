@@ -89,17 +89,7 @@ namespace Matematica.Test
 
             Assert.AreEqual(esperado.Real, resultado.Real);
         }
-        /*public void TruncarNumeros()
-        {
-            var numeroIngresado = 1.222222;
-            var numeroEsperado = 1.22;
-
-            var calculadora = new Calculadora();
-            var resultado = calculadora.Truncar(numeroIngresado);
-
-            Assert.AreEqual(numeroEsperado, resultado);
-
-        }*/
+        
         [TestMethod]
         [ExpectedException(typeof(System.ArgumentException))]
 
